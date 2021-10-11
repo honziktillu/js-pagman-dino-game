@@ -1,0 +1,48 @@
+* {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#score {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    font-size: 48px;
+    margin: 0;
+}
+
+#highscore {
+    color: white;
+    position: fixed;
+    top: 55px;
+    left: 50px;
+    font-size: 48px;
+    margin: 0;
+}
+
+#playButton {
+    font-size: 48px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    width: 160px;
+    display: table;
+    margin: 0 auto;
+}
+
+#playButton:hover {
+    text-decoration: underline;
+}
+
+.menu-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
